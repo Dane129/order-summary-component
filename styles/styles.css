@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+main {
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+main .box {
+  background-color: hsl(225, 100%, 98%);
+  width: 420px;
+  height: 580px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 17px 20px 0px rgba(161, 161, 161, 0.27);
+}
+main .box img {
+  width: 420px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.section1 {
+  width: 70%;
+  text-align: center;
+}
+.section1 h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: x-large;
+}
+.section1 p {
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.section2 .section2_img {
+  width: 50px;
+  height: 50px;
+}
+.section2 .section2_text {
+  line-height: 10px;
+  position: relative;
+  right: 30px;
+}
+.section2 .section2_text h3 {
+  color: hsl(223, 47%, 23%);
+  font-size: medium;
+  font-weight: 900;
+}
+.section2 .section2_text p {
+  color: hsl(224, 23%, 55%);
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.section3 button {
+  width: 290px;
+  height: 50px;
+  border: none;
+  color: hsl(225, 100%, 98%);
+  font-weight: 900;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 1px 8px 20px 2px rgba(161, 161, 161, 0.7411764706);
+  cursor: pointer;
+}
+.section3 button:hover {
+  background-color: hsla(239, 62%, 49%, 0.795);
+}
+.section3 a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-size: small;
+  font-weight: 700;
+}
+.section3 a:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.link {
+  color: hsl(245, 75%, 52%);
+  font-size: small;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: hsla(239, 63%, 53%, 0.795);
+}/*# sourceMappingURL=styles.css.map */
