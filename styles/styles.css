@@ -64,7 +64,7 @@ main .box img {
   position: relative;
   right: 30px;
 }
-.section2 .section2_text h3 {
+.section2 .section2_text h2 {
   color: hsl(223, 47%, 23%);
   font-size: medium;
   font-weight: 900;
