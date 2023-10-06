@@ -11,14 +11,14 @@ $Paragraph: 16px;
 body {
     margin: 0;
     font-family: 'Red Hat Display', sans-serif;
-    background-image: url(/pattern-background-desktop.svg);
+    background-image: url("../images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-color: $Paleblue;
 }
 
 @media (max-width: 425px) {
     body {
-        background-image: url(/pattern-background-mobile.svg);
+        background-image: url("../images/pattern-background-mobile.svg");
         background-size: contain;
     }
 }
